@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aventura Principal — Compendio de Thorn</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="principal">
+
+<button class="menu-toggle">☰ Menú</button>
+
+<div class="app">
+<main class="main">
+<section class="page">
+
+  <div class="page-kicker">Aventuras de Tesharya · Volumen I</div>
+  <h1 class="page-title">La Leyenda Comienza</h1>
+  <p class="page-sub">Campaña modular · Niveles 1–4 · Cuatro aventuras encadenadas</p>
+  <div class="divider">✦ ✦ ✦</div>
+
+  <p class="dropcap">Esta campaña modular está compuesta por cuatro aventuras encadenadas. Cada una puede jugarse como one-shot independiente, pero están diseñadas para formar una única gran trama que llevará a los héroes desde novatos sin nombre hasta candidatos al Gremio de Buscadores.</p>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <span class="card-tag moss">Modo campaña</span>
+      <h3>Campaña Modular</h3>
+      <p>Juega las cuatro aventuras en orden siguiendo el Vínculo de Trama. La historia épica se construye sola.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag">Modo libre</span>
+      <h3>One-Shots</h3>
+      <p>Cada aventura funciona sola con un pequeño ajuste del gancho. Ignora el Vínculo de Trama.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag gold">Modo inmersivo</span>
+      <h3>SandBox</h3>
+      <p>Intercala misiones secundarias entre aventuras para que los jugadores vivan dentro del mundo de Thorn.</p>
+    </div>
+  </div>
+
+  <div class="aside">
+    <div class="aside-title">Sobre la dificultad y la subida de niveles</div>
+    <p>Las aventuras han sido probadas para <strong>seis jugadores</strong>. Con menos jugadores, reduce el número de enemigos. La subida de nivel ocurre al completar cada aventura principal, o puede retrasarse hasta completar alguna misión secundaria. No se usan puntos de experiencia — la subida es por hitos narrativos.</p>
+  </div>
+
+  <div class="divider">✦ ✦ ✦</div>
+
+  <!-- AVENTURA 1 -->
+  <div class="adv-header">
+    <div class="adv-num">✦ Aventura I · Nivel 1 ✦</div>
+    <h2>Entras en una Taberna…</h2>
+    <div class="adv-tagline">Una sombra se oculta tras la sonrisa del tabernero</div>
+    <div class="adv-meta">
+      <span><strong>Ubicación</strong>Aldea de Doriel · Región de Eredhan</span>
+      <span><strong>Antagonista</strong>Morfeo, el Dopplegánger</span>
+    </div>
+  </div>
+
+  <h3>Trasfondo</h3>
+  <p>En el corazón de la región de <strong>Eredhan</strong>, la pequeña aldea de <strong>Doriel</strong> vive una aparente tranquilidad. Su centro es la taberna <em>«El Goblin Bailongo»</em>, regentada por <strong>Blueno</strong>, un hombre de amabilidad inagotable. Pero bajo esa fachada se extiende algo oscuro: vecinos que no recuerdan conversaciones, que toman malas decisiones o que despiertan sin saber cómo llegaron donde están.</p>
+
+  <div class="aside warn">
+    <div class="aside-title">Para Master — La verdad de Blueno</div>
+    <p><strong>Morfeo</strong> es un dopplegánger grisáceo que llegó hace un mes, secuestró al verdadero Blueno y lo escondió en el almacén de la taberna. Lidera una banda de mercenarios con el objetivo de tomar el control de la aldea.</p>
+    <p>Actúa durmiendo víctimas con su Toque Somnífero y disfrazándose de ellas. Ha robado armas y suministros a comerciantes. Su próximo paso: suplantar a <strong>Aran Corazónsalvaje</strong> (líder élfico del Gremio de Cazadores) para enviar a todos los miembros fuera y dejar la aldea desprotegida. Ha colocado pistas falsas apuntando a <strong>Circe</strong>, una herborista druida recién llegada.</p>
+  </div>
+
+  <h3>Localizaciones clave de Doriel</h3>
+  <div class="grid grid-2">
+    <div class="card">
+      <span class="card-tag gold">Sede de la trama</span>
+      <h3>El Goblin Bailongo</h3>
+      <p>Taberna de dos pisos. Salón principal con chimenea y sofás. En el <strong>almacén cerrado</strong> (llave en el cinturón de Morfeo, o CD 15 Juego de Manos) se esconde el verdadero Blueno bajo un conjuro de dormir. En el almacén: frascos con pistas falsas, un mapa del bosque con una cruz y la nota de los mercenarios.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag">Investigación</span>
+      <h3>Mercado de la Plaza</h3>
+      <p><strong>Ernie</strong> (vendió su puesto de pociones por 1 po, está arruinado), <strong>Silvurg</strong> (raciones robadas), <strong>Mirtu</strong> (tiendas de campaña vendidas). Cada uno recibió una sola moneda de oro por objetos de mucho más valor. No recuerdan haber hecho los tratos.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag moss">Aliado clave</span>
+      <h3>Herboristería de Circe</h3>
+      <p>Druida del este. Tienda llena de plantas, animales e inciensos. Alguien entró y le robó objetos para usarlos como pistas falsas. Si los jugadores no la acusan, puede ser una gran aliada. Da la misión de los svergs (Juego de Manos CD 11 para capturarlos en el lago noreste — recompensa: descubrir el campamento del bosque).</p>
+    </div>
+    <div class="card">
+      <span class="card-tag ink">Información</span>
+      <h3>Gremio de Cazadores</h3>
+      <p><strong>Aran Corazónsalvaje</strong>, líder élfico veterano, duerme con un ojo abierto. Intuye que algo raro pasa. Envió dos cazadores al noreste — no han regresado (están prisioneros en el campamento del bosque).</p>
+    </div>
+  </div>
+
+  <h3>Las Pistas</h3>
+  <div class="grid grid-2">
+    <div class="card">
+      <span class="card-tag">Falsas — apuntan a Circe</span>
+      <h3>Plantadas por Morfeo</h3>
+      <p>Herrería: <em>plumas verdes</em> idénticas a las de la capa de Circe. Mercado: <em>polvo de hueso</em> y <em>pétalos de rosa</em> de su vestimenta. Puesto de Ernie: una planta a modo de burla. Percepción CD 5 — están puestas para ser encontradas fácilmente.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag gold">Verdaderas — el almacén</span>
+      <h3>Lo que esconde el almacén</h3>
+      <p>Al verdadero Blueno atado. Frascos con los materiales de las pistas falsas. Un <strong>mapa del bosque con una cruz</strong>. Una nota abierta: «Morfeo, hemos encontrado cómodo el campamento… los chicos preguntan cuándo comenzará ese asunto. Las casas parecen más cómodas que los sacos de dormir.»</p>
+    </div>
+  </div>
+
+  <details>
+    <summary>Escena nocturna — La revelación de Morfeo</summary>
+    <p>Una noche, uno de los personajes se despierta con sed. Al bajar al salón en silencio (Sigilo CD 12), presencia cómo Morfeo se lleva un dedo a la frente, su piel se torna grisácea, y se transforma en Aran el cazador antes de salir a la calle. La llave del almacén ha quedado olvidada sobre la barra.</p>
+    <p>Si el personaje no supera el Sigilo, Morfeo le estará esperando al otro lado de la barra. Le dará conversación hasta que suba a dormir — sin ropa de dormir puesta.</p>
+  </details>
+
+  <details>
+    <summary>Batallas finales y resolución</summary>
+    <p><strong>En el campamento</strong>: ataque sorpresa si el grupo llega sin avisar (solo 2 vigilantes activos al inicio). Si estaban avisados, posiciones tomadas en la colina. Añade 1 mercenario por cada cazador que apoye al grupo. Sin Morfeo, los mercenarios huyen.</p>
+    <p><strong>En la aldea</strong>: Morfeo ataca con toda su banda. Posibles flechas incendiarias en tejados de paja. Victoria: derrotar o capturar a Morfeo. Morfeo huye con <em>Nube de Oscurecimiento</em> si se siente atrapado — tendedlo una trampa para que no escape.</p>
+    <p><strong>Prisioneros del campamento</strong>: los dos cazadores de Aran y, posiblemente, Circe si fue arrestada. Liberarlos da más aliados en la batalla.</p>
+  </details>
+
+  <h3>Recompensas</h3>
+  <ul class="fancy">
+    <li>Tesoro del campamento: 95 po + 56 pl + 254 pc + armas básicas + suministros robados.</li>
+    <li><strong>Poción de Raíces</strong> (regalo de Circe): hablar con plantas durante 30 minutos.</li>
+    <li><strong>Copia del libro de Circe</strong>: conjuros Enmarañar y Buenas Bayas (para magos).</li>
+    <li><strong>Bastón Verde Kastay</strong> (raro): foco arcano + Sanación Menor 1/día (1d4+1 PG).</li>
+    <li><strong>Infusión de Hogar</strong> (muy raro): beneficios de descanso largo en una sola acción.</li>
+    <li>Ernie regala pociones de curación a los héroes.</li>
+    <li>Desbloquea la misión secundaria <strong>«La Carta»</strong> (encontrada en el campamento).</li>
+  </ul>
+
+  <div class="aside">
+    <div class="aside-title">Vínculo de Trama · Subida a Nivel 2</div>
+    <p>Los héroes parten de Doriel hacia <strong>Eredhan</strong> (2 días de viaje). Allí descubren que el último buscador de la zona — <strong>Joren</strong> — partió hace días hacia Rivian, en la región de Vhëlen. El grupo sigue su pista.</p>
+  </div>
+
+  <div class="divider">✦</div>
+
+  <!-- AVENTURA 2 -->
+  <div class="adv-header">
+    <div class="adv-num">✦ Aventura II · Nivel 2 ✦</div>
+    <h2>Problemas Verdes</h2>
+    <div class="adv-tagline">Los goblins no siempre son los villanos</div>
+    <div class="adv-meta">
+      <span><strong>Ubicación</strong>Aldea de Rivian · Región de Vhëlen</span>
+      <span><strong>Antagonista</strong>Seraphine Rotwhisper, nigromante</span>
+      <span><strong>Aliados potenciales</strong>Joren · Krag (goblins) · Vulk (kobolds) · Zogor (orcos)</span>
+    </div>
+  </div>
+
+  <h3>Trasfondo</h3>
+  <p>La aldea de <strong>Rivian</strong> es una de las pocas aldeas <strong>fortificadas</strong> de Cima del Viento (muro de madera con torres vigía, aldeanos armados). Famosa por sus aserraderos. Hace días ocurren robos inusuales: goblins en despensas, kobolds y orcos migrando de las colinas. El buscador <strong>Joren</strong> aceptó el encargo hace dos días. No ha regresado.</p>
+
+  <div class="aside warn">
+    <div class="aside-title">Para Master — La situación real del bosque</div>
+    <p><strong>Seraphine Rotwhisper</strong> (druida corrompida por el demonio <em>Zuggtmoy</em>) se instaló en una cripta en las colinas. Una infección de <strong>moho putrefacto</strong> avanza desde ahí, matando el bosque. Todas las criaturas del área fueron desplazadas. Los goblins liderados por <strong>Krag</strong> robaban por hambre, no por maldad.</p>
+    <p>Joren lo descubrió, quiso ayudarles, y Seraphine lo capturó. <strong>Plan de Seraphine</strong>: crear un ejército de no-muertos, tomar Rivian y luego Vhëlen a través de un pasadizo secreto de contrabando que conecta su cripta con la ciudad. Su objetivo real: los <em>archivos prohibidos de magia oscura</em> guardados en la biblioteca de Vhëlen.</p>
+    <p>Los <strong>no-muertos</strong> de la cripta tienen daño extra de veneno por las esporas de Seraphine.</p>
+  </div>
+
+  <h3>Las facciones del bosque</h3>
+  <div class="grid grid-3">
+    <div class="card">
+      <span class="card-tag moss">Aliado natural</span>
+      <h3>Krag — Goblins</h3>
+      <p>Los más afectados. Krag no busca pelea: busca salvar a su pueblo. Si los héroes se acercan con buena fe y les ofrecen solución, se aliarán. Son los más fáciles de convencer y los más agradecidos.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag">Difíciles</span>
+      <h3>Vulk — Kobolds</h3>
+      <p>Desconfían de todos. Detectarán al grupo antes de que se acerquen. Refugiados en unas ruinas kobold. Hay que convencerles de que Seraphine los arrasará a todos: astucia y paciencia son la clave.</p>
+    </div>
+    <div class="card">
+      <span class="card-tag ink">Hostiles</span>
+      <h3>Zogor — Orcos</h3>
+      <p>Solo respetan la fuerza. Un combate ritual contra el Campeón Orco puede ser la única forma de ganarse el respeto de Zogor. Con suficiente insistencia y demostración de poder aceptarán unirse.</p>
+    </div>
+  </div>
+
+  <details>
+    <summary>La Cripta del Olvido — Combate final</summary>
+    <p>La cripta conectaba antiguamente con Vhëlen por una galería de contrabando sellada hace tiempo. Seraphine tiene prisionero a Joren en su interior. Los no-muertos sirven bajo sus órdenes. El combate contra Seraphine es el punto culminante.</p>
+    <p>Con una buena alianza de facciones, el enfrentamiento es superabla. Sin aliados, muy complicado. <strong>Si las cosas se ponen feas, elimina miembros de la alianza antes que dañar a los personajes.</strong> La lección de la aventura: prepararse y aliarse vale más que combatir directamente.</p>
+  </details>
+
+  <h3>Recompensas</h3>
+  <ul class="fancy">
+    <li>Loot del campamento de Seraphine y la cripta.</li>
+    <li><strong>Armadura del Bosque</strong> (rara): CA 12+DES, ventaja en Sigilo en bosques contra criaturas que rastrean por olfato.</li>
+    <li>Joren, liberado y agradecido, promete llevar al grupo con Baelor.</li>
+  </ul>
+
+  <div class="aside">
+    <div class="aside-title">Vínculo de Trama · Subida a Nivel 3</div>
+    <p>Joren acompaña al grupo hacia la ciudad de <strong>Valle Blanco</strong> donde se encontraba Baelor. El viaje es largo. Por el camino, algo ocurrirá a la altura de la <strong>Cordillera Central</strong>.</p>
+  </div>
+
+  <div class="divider">✦</div>
+
+  <!-- AVENTURA 3 -->
+  <div class="adv-header">
+    <div class="adv-num">✦ Aventura III · Nivel 3 ✦</div>
+    <h2>Las Ruinas de Aernor</h2>
+    <div class="adv-tagline">Algo despierta en las minas olvidadas de los enanos</div>
+    <div class="adv-meta">
+      <span><strong>Ubicación</strong>Cordillera Central · Mina enana de Balorir</span>
+      <span><strong>Antagonistas</strong>Othak (semiliche) · Matt el Aprendiz</span>
+      <span><strong>NPCs</strong>Alester, archimago · Joren</span>
+    </div>
+  </div>
+
+  <h3>Trasfondo</h3>
+  <p>Las <strong>Ruinas de Aernor</strong> son la antigua mina enana del reino de <strong>Balorir</strong>, extinguido en la Segunda Era. Durante siglos fue peligrosa; gracias al Gremio de Buscadores, se considera relativamente segura: usada como entrenamiento para aventureros novatos. Hasta ahora.</p>
+  <p>El gran hechicero <strong>Alester</strong> ha informado al Gremio Arcano de un extraño temblor procedente de su interior. Un <strong>nuevo pasillo</strong> ha aparecido, sellado durante dos mil años. Espíritus arcanos merodean la entrada. Alester quiere enviar a su aprendiz <strong>Matt</strong> para explorar y probarlo — últimamente se comporta de forma sospechosa.</p>
+
+  <div class="aside warn">
+    <div class="aside-title">Para Master — Othak y la traición de Matt</div>
+    <p><strong>Othak</strong>, archimago que luchó para Eros en la Segunda Era, escondió su amuleto en Aernor hace más de dos milenios. El amuleto se alimenta de las almas de los aventureros muertos en las ruinas para ejecutar el conjuro de resurrección de Othak como semiliche. El proceso tardó tanto porque las ruinas se despejaron pronto. Un ermitaño recién muerto fue la última alma necesaria.</p>
+    <p><strong>Importante</strong>: cualquier personaje que muera aquí formará parte del semiliche para siempre — su alma no termina de morir y siempre será consciente de todo.</p>
+    <p><strong>Matt</strong> ha sido manipulado por un enemigo de Alester dentro del Gremio. Ya sospecha que lo traicionarán después de que haga el trabajo sucio. Al llegar a la tumba y ver la posibilidad de servir a Othak, cambiará de planes. Dale pinceladas de narcisismo y ambición durante toda la exploración — sin revelar demasiado pronto que es el villano.</p>
+  </div>
+
+  <details>
+    <summary>La mazmorra — El Descanso de Othak</summary>
+    <p>La <strong>Gran Galería</strong> es el pasillo central de la mina. A mano izquierda está la entrada al nuevo pasillo sellado. Una vez el grupo accede, la salida se cierra mágicamente hasta superar la sala 12 o 14.</p>
+    <p><strong>Reglas especiales</strong>: puertas bloqueadas se abren con CD 11 o herramientas de ladrón. El grupo puede descansar entre combates — llegarán siempre al ritual a tiempo.</p>
+    <p><strong>Sala del Pozo</strong>: el combate del Ahogado enseña a mantener distancias. <strong>El Caparazón de Acero</strong>: enseña que los conjuros con salvaciones son mejores que los ataques físicos contra armaduras muy altas. <strong>Sala Ritual (Sala 5)</strong>: puzzle de orbes — verter agua en bocas de estatuas y lanzar un conjuro en el centro del círculo.</p>
+    <p><strong>La Sala Final (Tumba de Othak)</strong>: aquí traiciona Matt. Puede ser convencido de volver (roleplaying muy difícil) o abatido. Destruir el amuleto es la clave para detener la resurrección.</p>
+  </details>
+
+  <h3>Recompensas</h3>
+  <ul class="fancy">
+    <li><strong>Anillo de Iniciado</strong> (infrecuente): espacio de conjuro de nivel 1 adicional.</li>
+    <li><strong>Amuleto de Othak</strong> (destruido pero reparable con gema ≥200 po): regenera vida igual al daño causado, 1/descanso largo, 1 minuto (daño necrótico temporal).</li>
+    <li><strong>Conjuros de Inicio de Alester</strong> (si se gana su confianza): Ráfaga de Fragmentos, Manto Defensivo, Cadena de Sombras.</li>
+    <li><strong>Anillo de Clarividencia</strong> (raro, encontrado en la mazmorra): sensor invisible a 1 milla, 10 usos.</li>
+  </ul>
+
+  <div class="aside">
+    <div class="aside-title">Vínculo de Trama · Subida a Nivel 4</div>
+    <p>Saliendo de Aernor, el grupo continúa hacia <strong>Valle Blanco</strong>. Al llegar descubren que Baelor ya partió hace días hacia la Capital. Pero un nuevo problema y una oportunidad los aguardan en la ciudad.</p>
+  </div>
+
+  <div class="divider">✦</div>
+
+  <!-- AVENTURA 4 -->
+  <div class="adv-header">
+    <div class="adv-num">✦ Aventura IV · Nivel 4 ✦</div>
+    <h2>El Descanso del Dragón</h2>
+    <div class="adv-tagline">El heredero dragón quiere resucitar a un dios reptil</div>
+    <div class="adv-meta">
+      <span><strong>Ubicación</strong>Valle Blanco · La cueva de Agghar</span>
+      <span><strong>Antagonista</strong>Imbot el Devorador, Heredero Dragón</span>
+      <span><strong>NPCs</strong>Shoren (maestro arcano) · Joren</span>
+    </div>
+  </div>
+
+  <h3>Trasfondo</h3>
+  <p>Hace más de dos mil años, el dragón <strong>Aggmassil</strong> se refugió en la Montaña de la Ceniza. Nadie supo exactamente dónde. Cuando murió de viejo, la memoria se perdió: se convirtió en leyenda. Los seguidores de <strong>Khar</strong> (antiguo dios de los dragones) encontraron la guarida y construyeron un templo en su interior — «El Descanso del Dragón».</p>
+  <p>Unos bandidos asaltaron el templo y aniquilaron a los cultistas. Uno de ellos cometió el error de robar al <strong>Heredero Dragón Imbot</strong>. Este mató a toda la banda, tomó el templo y encontró lo que los cultistas custodiaban: un portal a la <strong>Tumba de Aggmassil</strong>, con un tesoro inmenso y los restos del dragón.</p>
+
+  <div class="aside warn">
+    <div class="aside-title">Para Master — El plan de Imbot y la situación de Valle Blanco</div>
+    <p>Imbot, con su chamán druida, ha estudiado los libros de los cultistas. Cree que puede devolver a la vida el esqueleto de Aggmassil y transferir su conciencia al cuerpo del dragón. El terremoto que asoló la región fue causado por la apertura del portal a la tumba. Esto expulsó a bandidos y orcos de los alrededores, que ahora merodean por las llanuras.</p>
+    <p>El maestro arcano <strong>Shoren</strong> del Gremio Arcano de Valle Blanco sospecha que hay algo grave. Ofrece una <strong>carta de recomendación para el Gremio de Buscadores</strong> si el grupo resuelve la situación. Baelor, el Primer Maestro, ya no está en Valle Blanco — partió días antes hacia la Capital.</p>
+    <p><strong>Imbot el Devorador</strong>: el heredero dragón más poderoso del suroeste de Cima del Viento. Conocido por comerse a sus rivales delante de sus propios aliados para provocar rendición por terror. Despiadado, cruel, obsesionado con el poder.</p>
+  </div>
+
+  <h3>Valle Blanco — Fuentes de información</h3>
+  <ul class="fancy">
+    <li><strong>Taberna principal</strong> (regentada por Geinher): información parcial sobre Baelor, ambiente de ciudad tensa.</li>
+    <li><strong>Gremio Arcano de Valle Blanco</strong>: Shoren tiene información completa, la misión y la carta de recomendación.</li>
+    <li><strong>Supervivientes de la banda de bandidos</strong>: testigos directos del ataque de Imbot. Advertirán al grupo de que no se acerquen — y describirán con detalle el horror de verle devorar a sus compañeros.</li>
+  </ul>
+
+  <details>
+    <summary>La Cueva de Agghar — El templo de Khar</summary>
+    <p>Decorado con columnas de runas dracónicas, murales de adoración y sacrificio, estatuas de dragón. <strong>Efectos mágicos del lugar</strong>: los conjuros y trucos de fuego infligen 1d4 de daño extra para usuarios mágicos de nivel inferior a 4.</p>
+    <p><strong>Agmer</strong>, espíritu de un antiguo sacerdote de Khar, puede hacer tratos con los héroes: a cambio de devolver ciertas llaves sagradas a su lugar correcto, les ayudará en el combate final contra Imbot.</p>
+    <p><strong>Sala Ritual</strong>: puzzle de los orbes de dragón. Las bocas abiertas en las estatuas del pasillo están para que un personaje vierta agua sobre ellas, liberando los pilares que sostienen los orbes. Un personaje en el centro del círculo que lance un conjuro completa el puzzle.</p>
+    <p><strong>La Tumba de Aggmassil</strong>: al otro lado del portal mágico en la capilla. Una montaña de oro y la calavera inmensa del dragón. El ritual de Imbot está en marcha aquí.</p>
+  </details>
+
+  <details>
+    <summary>Combate final — Imbot el Devorador</summary>
+    <p>Usa el perfil de <strong>Heredero Dragón</strong> del Apéndice del libro. Es el combate más duro del volumen. Si el grupo es reducido o novato, considera incluir a Joren como aliado o liberar un prisionero que sirva de apoyo. El espíritu de Agmer puede ayudar si se cerró el trato previamente.</p>
+    <p>Si Imbot muere, su chamán huirá. El ritual de resurrección de Aggmassil queda inconcluso.</p>
+  </details>
+
+  <h3>Recompensas</h3>
+  <ul class="fancy">
+    <li>Tesoro de la tumba de Aggmassil (cantidad masiva de oro y joyas).</li>
+    <li><strong>Poción de Curación Mayor</strong>: recupera 3d6+2 PG.</li>
+    <li><strong>Poción de Cabeceada Rápida</strong> (infrecuente): beneficios de descanso largo en 1 hora de siesta.</li>
+    <li><strong>Poción de Mirada Arcana</strong> (infrecuente): detectar magia a 30 pies durante 30 minutos.</li>
+    <li>Carta de recomendación de Shoren para el Gremio de Buscadores.</li>
+  </ul>
+
+  <div class="aside">
+    <div class="aside-title">Cierre del Volumen I · Subida a Nivel 5</div>
+    <p>Con la amenaza de Imbot resuelta y la carta de Shoren en mano, los héroes están preparados para encontrar a <strong>Baelor, el Primer Maestro</strong>, en la Capital. El grupo sube a nivel 5 y está listo para el Volumen II. Próximas aventuras: toda Tesharya y, eventualmente, el continente de <strong>Jagh'Ghar</strong>.</p>
+  </div>
+
+</section>
+</main>
+</div>
+
+<script src="js/sidebar.js"></script>
+</body>
+</html>

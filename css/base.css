@@ -1,0 +1,240 @@
+/* ============================================
+   COMPENDIO DE THORN — base.css
+   Variables, reset, layout, sidebar, tipografía
+   ============================================ */
+
+:root{
+  --ink:#1a1410;
+  --ink-soft:#3a2e24;
+  --parchment:#f3e7cd;
+  --parchment-dark:#e5d3aa;
+  --parchment-deep:#d4bc87;
+  --gold:#8b6b2a;
+  --gold-bright:#b8893b;
+  --blood:#6b1f1f;
+  --moss:#3d4a28;
+  --shadow:rgba(40,25,10,.35);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px;text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%}
+
+body{
+  font-family:'Cormorant Garamond',serif;
+  background:
+    radial-gradient(ellipse at top left, rgba(139,107,42,.08), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(107,31,31,.08), transparent 50%),
+    #2a1f15;
+  color:var(--ink);
+  min-height:100vh;
+  font-size:18px;
+  line-height:1.75;
+  font-weight:600;
+}
+
+/* ============ LAYOUT ============ */
+.app{display:flex;min-height:100vh}
+
+/* ============ SIDEBAR ============ */
+.sidebar{
+  width:300px;
+  background:linear-gradient(180deg,#1a1208 0%,#2a1f12 100%);
+  color:var(--parchment);
+  padding:2rem 0;
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow-y:auto;
+  border-right:3px double var(--gold);
+  box-shadow:inset -5px 0 15px rgba(0,0,0,.5);
+  flex-shrink:0;
+}
+.sidebar::-webkit-scrollbar{width:6px}
+.sidebar::-webkit-scrollbar-track{background:#1a1208}
+.sidebar::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px}
+
+.brand{
+  text-align:center;
+  padding:0 1.5rem 1.5rem;
+  border-bottom:1px solid rgba(184,137,59,.3);
+  margin-bottom:1.5rem;
+}
+.brand a{text-decoration:none;color:inherit;display:block}
+.brand-mark{
+  font-family:'UnifrakturMaguntia',serif;
+  font-size:3.5rem;
+  color:var(--gold-bright);
+  line-height:1;
+  text-shadow:0 2px 8px rgba(0,0,0,.6);
+  letter-spacing:.05em;
+}
+.brand-sub{
+  font-family:'Cinzel',serif;
+  font-size:.72rem;
+  letter-spacing:.4em;
+  color:var(--parchment-dark);
+  margin-top:.5rem;
+  text-transform:uppercase;
+}
+.brand-ornament{
+  color:var(--gold);
+  font-size:1.2rem;
+  margin:.4rem 0;
+  letter-spacing:.3em;
+}
+
+.nav{list-style:none;padding:0 1rem}
+.nav-section{
+  font-family:'Cinzel',serif;
+  font-size:.68rem;
+  letter-spacing:.3em;
+  color:var(--gold-bright);
+  text-transform:uppercase;
+  padding:1.2rem .8rem .5rem;
+  opacity:.8;
+}
+.nav a{
+  display:flex;
+  align-items:center;
+  gap:.7rem;
+  padding:.55rem .8rem;
+  color:var(--parchment-dark);
+  text-decoration:none;
+  font-family:'Cinzel',serif;
+  font-size:.88rem;
+  letter-spacing:.08em;
+  border-left:2px solid transparent;
+  transition:all .2s;
+  border-radius:0 4px 4px 0;
+}
+.nav a:hover{
+  color:var(--parchment);
+  background:rgba(184,137,59,.1);
+  border-left-color:var(--gold);
+  padding-left:1.1rem;
+}
+.nav a.active{
+  color:var(--gold-bright);
+  background:rgba(184,137,59,.15);
+  border-left-color:var(--gold-bright);
+}
+.nav-icon{font-size:1.05rem;opacity:.7;width:18px;text-align:center}
+
+/* ============ MAIN ============ */
+.main{
+  flex:1;
+  min-width:0;
+  background:linear-gradient(135deg,#f5ecda 0%,#ead8b1 40%,#f0e6cc 70%,#f5ecda 100%);
+  box-shadow:inset 0 0 60px rgba(139,107,42,.12);
+}
+.page{padding:4rem 5rem;max-width:1200px;margin:0 auto}
+
+/* ============ TYPOGRAPHY ============ */
+h1.page-title{
+  font-family:'UnifrakturMaguntia',serif;
+  font-size:5.5rem;
+  color:var(--blood);
+  text-align:center;
+  margin-bottom:.3rem;
+  line-height:1;
+  text-shadow:2px 3px 0 rgba(139,107,42,.25);
+}
+.page-kicker{
+  font-family:'Cinzel',serif;
+  text-align:center;
+  font-size:.8rem;
+  letter-spacing:.5em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:.5rem;
+}
+.page-sub{
+  text-align:center;
+  font-style:italic;
+  font-size:1.25rem;
+  color:var(--ink-soft);
+  margin-bottom:2rem;
+}
+.divider{
+  text-align:center;
+  color:var(--gold);
+  font-size:1.4rem;
+  letter-spacing:.8em;
+  margin:2rem 0;
+  opacity:.7;
+}
+h2{
+  font-family:'Cinzel',serif;
+  font-size:2.1rem;
+  color:var(--blood);
+  margin:2.5rem 0 1rem;
+  border-bottom:1px solid var(--gold);
+  padding-bottom:.4rem;
+  font-weight:600;
+}
+h3{
+  font-family:'Cinzel',serif;
+  font-size:1.45rem;
+  color:var(--ink-soft);
+  margin:1.8rem 0 .8rem;
+  font-weight:500;
+  letter-spacing:.05em;
+}
+h4{
+  font-family:'Cinzel',serif;
+  font-size:1.1rem;
+  color:var(--gold);
+  margin:1.2rem 0 .5rem;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+}
+p{margin-bottom:1rem;color:var(--ink);font-weight:500}
+p.lead{
+  font-size:1.35rem;
+  font-style:italic;
+  color:var(--ink-soft);
+  text-align:center;
+  max-width:720px;
+  margin:0 auto 2.5rem;
+  line-height:1.6;
+}
+
+.dropcap::first-letter{
+  font-family:'UnifrakturMaguntia',serif;
+  font-size:5rem;
+  float:left;
+  line-height:.85;
+  padding:.3rem .5rem 0 0;
+  color:var(--blood);
+}
+
+/* ============ MOBILE TOGGLE ============ */
+.menu-toggle{
+  display:none;
+  position:fixed;
+  top:1rem;left:1rem;
+  z-index:100;
+  background:var(--ink);
+  color:var(--gold-bright);
+  border:1px solid var(--gold);
+  padding:.6rem .9rem;
+  font-family:'Cinzel',serif;
+  font-size:.8rem;
+  letter-spacing:.15em;
+  cursor:pointer;
+}
+
+@media (max-width:900px){
+  body{font-size:16px}
+  .page{padding:2rem 1.5rem}
+  h1.page-title{font-size:3.5rem}
+  .menu-toggle{display:block}
+  .sidebar{
+    position:fixed;
+    left:-310px;top:0;
+    z-index:99;
+    transition:left .3s;
+  }
+  .sidebar.open{left:0}
+  .main{width:100%}
+}
