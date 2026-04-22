@@ -28,7 +28,7 @@
 .card-tag{
   display:inline-block;
   font-family:'Cinzel',serif;
-  font-size:.68rem;
+  font-size:.75rem;
   letter-spacing:.2em;
   text-transform:uppercase;
   background:var(--blood);
@@ -130,9 +130,9 @@ blockquote, .aside{
 }
 .statblock .row{
   margin:.3rem 0;
-  font-size:1rem;
+  font-size:1.05rem;
 }
-.statblock .row strong{color:var(--blood);font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.1em;margin-right:.5rem}
+.statblock .row strong{color:var(--blood);font-family:'Cinzel',serif;font-size:.9rem;letter-spacing:.1em;margin-right:.5rem}
 .stats-grid{
   display:grid;
   grid-template-columns:repeat(6,1fr);
@@ -144,14 +144,25 @@ blockquote, .aside{
   margin:.8rem 0;
 }
 .stat{padding:.3rem}
-.stat-label{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.1em;color:var(--blood);display:block}
-.stat-value{font-size:1.15rem;font-weight:600}
-.action-title{font-family:'Cinzel',serif;font-size:1.05rem;color:var(--blood);margin:1rem 0 .3rem;letter-spacing:.08em;border-bottom:1px solid var(--gold);padding-bottom:.2rem}
-.action{margin:.5rem 0;font-size:1rem}
+.stat-label{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.1em;color:var(--blood);display:block}
+.stat-value{font-size:1.2rem;font-weight:600}
+.action-title{font-family:'Cinzel',serif;font-size:1.1rem;color:var(--blood);margin:1rem 0 .3rem;letter-spacing:.08em;border-bottom:1px solid var(--gold);padding-bottom:.2rem}
+.action{margin:.5rem 0;font-size:1.05rem}
 .action strong{font-style:italic;color:var(--ink-soft)}
+
+/* Statblocks en pares */
+.statblock-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:1.5rem;
+  margin:1.5rem 0;
+  align-items:start;
+}
+.statblock-grid .statblock{margin:0}
 
 @media (max-width:900px){
   .stats-grid{grid-template-columns:repeat(3,1fr)}
+  .statblock-grid{grid-template-columns:1fr}
 }
 
 /* ============ RACE BADGE ============ */

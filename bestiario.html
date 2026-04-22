@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bestiario — Compendio de Thorn</title>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/components.css">
 </head>
@@ -16,9 +16,9 @@
 <main class="main">
 <section class="page">
 
-  <div class="page-kicker">Pergamino I</div>
+  <div class="page-kicker">Pergamino I &amp; II</div>
   <h1 class="page-title">Bestiario</h1>
-  <p class="page-sub">Los Goblins en Thorn — Volumen I</p>
+  <p class="page-sub">Goblins, Kobolds y Villanos del Volumen I</p>
   <div class="divider">✦ ✦ ✦</div>
 
   <p class="dropcap">Pequeños, verdes y muy astutos. Los goblins son las criaturas más comunes de ver en lugares ocultos cercanos a las aldeas. Merodean los caminos buscando asaltar caravanas o realizar fechorías. Aunque son seres pequeños y torpes, son muy peligrosos cuando van en grupos grandes o tienen tiempo de preparar una defensa.</p>
@@ -48,265 +48,147 @@
   <p>Un grupo táctico goblin tiene: <strong>arqueros escondidos en alturas</strong>, <strong>espadachines con escudos</strong>, algún goblin acorazado en el frente, una criatura grande (como un ogro), un <strong>chamán</strong> para curar y un <strong>hechicero</strong> a distancia que dirige. Atacan cuando tienen ventaja (mayor número, altura o escondidos).</p>
 
   <div class="divider">✦</div>
+  <h2>Estadísticas — Goblins</h2>
 
-  <h2>Estadísticas</h2>
-
-  <div class="statblock">
-    <h3>Goblin</h3>
-    <div class="type">Pequeño humanoide, caótico malvado</div>
-    <div class="row"><strong>CA</strong>13 (piel y trapos)</div>
-    <div class="row"><strong>PG</strong>6 (2d6)</div>
-    <div class="row"><strong>Velocidad</strong>30 pies</div>
-    <div class="stats-grid">
-      <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
-      <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
-      <div class="stat"><span class="stat-label">CON</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">INT</span><span class="stat-value">11 (0)</span></div>
-      <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">8 (−1)</span></div>
+<div class="statblock-grid">
+    <div class="statblock">
+      <h3>Kobold</h3>
+      <div class="type">Pequeño humanoide (reptil), caótico neutral</div>
+      <div class="row"><strong>CA</strong>11 (armadura de cuero)</div>
+      <div class="row"><strong>PG</strong>5 (2d6+2)</div>
+      <div class="row"><strong>Velocidad</strong>30 pies</div>
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">7 (−2)</span></div>
+        <div class="stat"><span class="stat-label">DES</span><span class="stat-value">15 (+2)</span></div>
+        <div class="stat"><span class="stat-label">CON</span><span class="stat-value">9 (−1)</span></div>
+        <div class="stat"><span class="stat-label">INT</span><span class="stat-value">8 (−1)</span></div>
+        <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">7 (−2)</span></div>
+        <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">10 (0)</span></div>
+      </div>
+      <div class="row"><strong>Habilidades</strong>Sigilo +4, Percepción +2</div>
+      <div class="row"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
+      <div class="row"><strong>Idiomas</strong>Común, Dracónico</div>
+      <div class="row"><strong>Desafío</strong>1/8 (25 PX)</div>
+      <div class="action"><strong>Cobardía Organizada.</strong> +1 a ataques y daño por cada kobold aliado a 5 pies.</div>
+      <div class="action"><strong>Adaptación a la Oscuridad.</strong> Ventaja en Sigilo en penumbra u oscuridad total.</div>
+      <div class="action"><strong>Escurridizos.</strong> En su territorio, se mueven por el espacio de criaturas Medianas o mayores.</div>
+      <div class="action"><strong>Tácticas de Manada.</strong> Ventaja en ataques si hay un aliado kobold a 5 pies del objetivo.</div>
+      <div class="action-title">Acciones</div>
+      <div class="action"><strong>Daga.</strong> Cuerpo a cuerpo: +4, 5 pies. Golpe: 4 (1d4+2) perforante.</div>
+      <div class="action"><strong>Honda.</strong> A distancia: +4, 30/120 pies. Golpe: 4 (1d4+2) contundente.</div>
     </div>
-    <div class="row"><strong>Habilidades</strong>Sigilo +6</div>
-    <div class="row"><strong>Sentidos</strong>Percepción pasiva 10</div>
-    <div class="row"><strong>Idiomas</strong>Goblin y común</div>
-    <div class="row"><strong>Desafío</strong>1/4 (50 PX)</div>
-    <div class="action"><strong>Sentido de Horda.</strong> El goblin recibe un bono de +1 a su tirada de ataque y daño por cada goblin aliado a 5 pies de él.</div>
-    <div class="action-title">Acciones</div>
-    <div class="action"><strong>Espada corta.</strong> Cuerpo a cuerpo: +3, alcance 5 pies. Golpe: 5 (1d6+2) daño cortante.</div>
-    <div class="action"><strong>Lanzar piedra.</strong> A distancia: +3, alcance 20/60 pies. Golpe: 3 (1d4+2) daño contundente.</div>
+
+    <div class="statblock">
+      <h3>Kobold Luchador</h3>
+      <div class="type">Pequeño humanoide (reptil), neutral maligno</div>
+      <div class="row"><strong>CA</strong>13 (armadura de cuero)</div>
+      <div class="row"><strong>PG</strong>20 (4d6+4)</div>
+      <div class="row"><strong>Velocidad</strong>30 pies</div>
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">12 (+1)</span></div>
+        <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
+        <div class="stat"><span class="stat-label">CON</span><span class="stat-value">12 (+1)</span></div>
+        <div class="stat"><span class="stat-label">INT</span><span class="stat-value">8 (−1)</span></div>
+        <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
+        <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">8 (−1)</span></div>
+      </div>
+      <div class="row"><strong>Habilidades</strong>Atletismo +4, Sigilo +4</div>
+      <div class="row"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
+      <div class="row"><strong>Desafío</strong>1 (200 PX)</div>
+      <div class="action"><strong>Valentía.</strong> No se ve afectado por asustado con un aliado kobold a 10 pies.</div>
+      <div class="action"><strong>Entrenamiento Marcial.</strong> Ventaja en ataques cuerpo a cuerpo contra criaturas más grandes.</div>
+      <div class="action-title">Acciones</div>
+      <div class="action"><strong>Multiataque.</strong> Espada corta + daga.</div>
+      <div class="action"><strong>Espada corta.</strong> +4, 5 pies. 6 (1d6+2) perforante.</div>
+      <div class="action"><strong>Daga.</strong> +4, cuerpo a cuerpo o distancia. 4 (1d4+2) perforante.</div>
+      <div class="action"><strong>Ataque Rápido (1/Día).</strong> Acción adicional: tercer ataque. Si impacta, FUE CD 12 o empujado 5 pies.</div>
+    </div>
+  </div>
+
+  <div class="statblock-grid">
+    <div class="statblock">
+      <h3>Kobold Alquimista</h3>
+      <div class="type">Pequeño humanoide (reptil), caótico neutral</div>
+      <div class="row"><strong>CA</strong>11 (armadura de cuero)</div>
+      <div class="row"><strong>PG</strong>29 (3d6+18)</div>
+      <div class="row"><strong>Velocidad</strong>30 pies</div>
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
+        <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
+        <div class="stat"><span class="stat-label">CON</span><span class="stat-value">16 (+3)</span></div>
+        <div class="stat"><span class="stat-label">INT</span><span class="stat-value">12 (+1)</span></div>
+        <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
+        <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">11 (0)</span></div>
+      </div>
+      <div class="row"><strong>Resistencias</strong>Veneno</div>
+      <div class="row"><strong>Desafío</strong>2 (450 PX)</div>
+      <div class="action"><strong>Alquimista Astuto.</strong> Ventaja en ataques con pociones cuando está a 20+ pies de sus aliados.</div>
+      <div class="action"><strong>Resistencia Alquímica.</strong> Ventaja en salvaciones contra veneno y ácido.</div>
+      <div class="action-title">Acciones</div>
+      <div class="action"><strong>Multiataque.</strong> Poción Explosiva + Poción Venenosa.</div>
+      <div class="action"><strong>Poción Explosiva.</strong> +5, 20/60 pies. Radio 5 pies: 13 (3d6) fuego. DES CD 13 para mitad.</div>
+      <div class="action"><strong>Poción Venenosa.</strong> +5, 20/60 pies. 10 (2d6+3) veneno + CON CD 13 o envenenado.</div>
+      <div class="action"><strong>Nube Tóxica (Recarga 5-6).</strong> Radio 10 pies: 7 (2d6) veneno + envenenado. CON CD 13 para mitad. El alquimista lleva máscara.</div>
+    </div>
+
+    <div class="statblock">
+      <h3>Kobold Chamán</h3>
+      <div class="type">Pequeño humanoide (reptil), neutral maligno</div>
+      <div class="row"><strong>CA</strong>13 (armadura natural)</div>
+      <div class="row"><strong>PG</strong>55 (10d6+20)</div>
+      <div class="row"><strong>Velocidad</strong>30 pies</div>
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
+        <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
+        <div class="stat"><span class="stat-label">CON</span><span class="stat-value">14 (+2)</span></div>
+        <div class="stat"><span class="stat-label">INT</span><span class="stat-value">12 (+1)</span></div>
+        <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">16 (+3)</span></div>
+        <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">10 (0)</span></div>
+      </div>
+      <div class="row"><strong>Inmunidades estados</strong>Envenenado</div>
+      <div class="row"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
+      <div class="row"><strong>Desafío</strong>3 (700 PX)</div>
+      <div class="action"><strong>Aura de la Naturaleza.</strong> Aliados en 10 pies: ventaja en salvaciones contra ataques mágicos.</div>
+      <div class="action"><strong>Conjuros</strong> (SAB CD 13, +5): A voluntad: Saber Druídico, Salpicadura Ácida. 3/día: Enmarañar, Manos Ardientes. 1/día: Hacer Añicos, Inmovilizar Persona.</div>
+      <div class="action-title">Acciones</div>
+      <div class="action"><strong>Cetro Natural.</strong> +4, 5 pies. 8 (1d8+3) contundente. Brillo verdoso al impactar.</div>
+      <div class="action"><strong>Ráfaga de Espinas (Recarga 5-6).</strong> Radio 15 pies a 30 pies: DES CD 13 o 14 (4d6) perforante.</div>
+    </div>
   </div>
 
   <div class="statblock">
-    <h3>Goblin Arquero</h3>
-    <div class="type">Pequeño humanoide, caótico malvado</div>
-    <div class="row"><strong>CA</strong>12 (piel y trapos)</div>
-    <div class="row"><strong>PG</strong>6 (2d6)</div>
-    <div class="row"><strong>Velocidad</strong>30 pies</div>
+    <h3>Heredero Dragón</h3>
+    <div class="type">Siervo del dragón, mediano, neutral maligno</div>
+    <div class="row"><strong>CA</strong>15 (armadura natural)</div>
+    <div class="row"><strong>PG</strong>85 (6d8+18)</div>
+    <div class="row"><strong>Velocidad</strong>30 pies, volar 40 pies</div>
     <div class="stats-grid">
-      <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
-      <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
-      <div class="stat"><span class="stat-label">CON</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">INT</span><span class="stat-value">11 (0)</span></div>
-      <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">8 (−1)</span></div>
+      <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">16 (+3)</span></div>
+      <div class="stat"><span class="stat-label">DES</span><span class="stat-value">12 (+1)</span></div>
+      <div class="stat"><span class="stat-label">CON</span><span class="stat-value">16 (+3)</span></div>
+      <div class="stat"><span class="stat-label">INT</span><span class="stat-value">10 (0)</span></div>
+      <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">11 (0)</span></div>
+      <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">14 (+2)</span></div>
     </div>
-    <div class="row"><strong>Desafío</strong>1/4 (50 PX)</div>
-    <div class="action"><strong>Traicionero.</strong> El goblin recibe un bono de +1 a su tirada de ataque y daño si ataca a un enemigo que está combatiendo con otra criatura.</div>
+    <div class="row"><strong>Inmunidades al daño</strong>Veneno, fuego</div>
+    <div class="row"><strong>Inmunidades estados</strong>Envenenado</div>
+    <div class="row"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
+    <div class="row"><strong>Idiomas</strong>Común, Dracónico</div>
+    <div class="row"><strong>Desafío</strong>5 (1.800 PX)</div>
+    <div class="action"><strong>Escamas Reforzadas.</strong> Inmune a daño por fuego y quemaduras.</div>
+    <div class="action"><strong>Rugido Desolador.</strong> Al entrar en batalla: SAB CD 13 o huye dos turnos.</div>
+    <div class="action"><strong>Furia de Batalla.</strong> Los ataques con garras y dientes son más mortíferos y precisos.</div>
     <div class="action-title">Acciones</div>
-    <div class="action"><strong>Arco corto.</strong> A distancia: +3, alcance 30/60 pies. Golpe: 5 (1d6+2) daño perforante.</div>
-    <div class="action"><strong>Hacha de mano.</strong> Cuerpo a cuerpo: −1. Golpe: 3 (1d6) daño contundente.</div>
-  </div>
-
-  <div class="statblock">
-    <h3>Goblin Acorazado</h3>
-    <div class="type">Pequeño humanoide, caótico malvado</div>
-    <div class="row"><strong>CA</strong>17 (armadura ajustable y escudo)</div>
-    <div class="row"><strong>PG</strong>8 (2d6)</div>
-    <div class="row"><strong>Velocidad</strong>30 pies</div>
-    <div class="stats-grid">
-      <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
-      <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
-      <div class="stat"><span class="stat-label">CON</span><span class="stat-value">12 (+1)</span></div>
-      <div class="stat"><span class="stat-label">INT</span><span class="stat-value">11 (0)</span></div>
-      <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">8 (−1)</span></div>
-    </div>
-    <div class="row"><strong>Desafío</strong>1/2 (100 PX)</div>
-    <div class="action"><strong>Defensa Desesperada.</strong> El goblin recibe un bono de +1 a la CA cuando realiza la acción de esquivar si se encuentra rodeado.</div>
-    <div class="action-title">Acciones</div>
-    <div class="action"><strong>Espada corta.</strong> Cuerpo a cuerpo: +3, alcance 5 pies. Golpe: 5 (1d6+2) daño cortante.</div>
-    <div class="action"><strong>Defenderse.</strong> Realiza la acción de esquivar, imponiendo desventaja a los atacantes.</div>
-  </div>
-
-  <div class="statblock">
-    <h3>Goblin Jinete</h3>
-    <div class="type">Pequeño humanoide, caótico malvado</div>
-    <div class="row"><strong>CA</strong>15 (mientras esté subido en la montura)</div>
-    <div class="row"><strong>PG</strong>8 (2d6)</div>
-    <div class="row"><strong>Velocidad</strong>30 pies</div>
-    <div class="stats-grid">
-      <div class="stat"><span class="stat-label">FUE</span><span class="stat-value">8 (−1)</span></div>
-      <div class="stat"><span class="stat-label">DES</span><span class="stat-value">14 (+2)</span></div>
-      <div class="stat"><span class="stat-label">CON</span><span class="stat-value">12 (+1)</span></div>
-      <div class="stat"><span class="stat-label">INT</span><span class="stat-value">11 (0)</span></div>
-      <div class="stat"><span class="stat-label">SAB</span><span class="stat-value">10 (0)</span></div>
-      <div class="stat"><span class="stat-label">CAR</span><span class="stat-value">8 (−1)</span></div>
-    </div>
-    <div class="row"><strong>Desafío</strong>1/2 (100 PX)</div>
-    <div class="action"><strong>Destreza del Jinete.</strong> Los ataques contra el goblin montado se hacen con desventaja.</div>
-    <div class="action"><strong>Arrastrar.</strong> Si atrapa un enemigo con su látigo, puede arrastrarlo. Cada turno recibe 2d6 de daño contundente y repite la tirada de salvación.</div>
-    <div class="action-title">Acciones</div>
-    <div class="action"><strong>Espada corta.</strong> Cuerpo a cuerpo: +3, alcance 5 pies. Golpe: 5 (1d6+2) cortante.</div>
-    <div class="action"><strong>Látigo de espinas.</strong> Cuerpo a cuerpo: +3, alcance 10 pies. Golpe: 5 (1d6+2) perforante. Salvación DES CD 10 o queda atrapado.</div>
+    <div class="action"><strong>Multiataque.</strong> Mordisco + garra, o dos con la espada.</div>
+    <div class="action"><strong>Mordisco.</strong> +7, 5 pies. 7 (1d8+3) perforante + 3 (1d6) fuego.</div>
+    <div class="action"><strong>Garra.</strong> +7, 5 pies. 8 (1d10+3) cortante.</div>
+    <div class="action"><strong>Espada Negra.</strong> +5, 5 pies. 12 (2d10+3) cortante.</div>
+    <div class="action"><strong>Aliento Ígneo (Recarga 5-6).</strong> Cono 15 pies: DES CD 13 o 21 (4d6) fuego.</div>
+    <div class="action"><strong>Comando Dracónico (1/Día).</strong> Cada aliado draconiano que lo oiga puede mover 15 pies y atacar como reacción.</div>
   </div>
 
   <div class="aside">
-    <div class="aside-title">Goblins en Thorn</div>
-    <p>Estos son los tipos básicos de nivel bajo. Quedan tipos más avanzados que añadirán capas de complejidad: <strong>bardos, artífices, hechiceros, chamanes, invocadores</strong>. Próximos volúmenes del Pergamino los desarrollarán.</p>
-  </div>
-
-  <div class=\"divider\">✦ ✦ ✦</div>
-
-  <div class=\"page-kicker\">Pergamino II</div>
-  <h2 style=\"text-align:center\">Los Kobolds en Thorn</h2>
-  <p class=\"page-sub\">Pequeños, escamosos y temiblemente astutos</p>
-
-  <p class=\"dropcap\">Los kobolds viven ocultos en los rincones más oscuros del mundo. Habitualmente rondan ruinas y cavernas profundas, donde excavan túneles interminables buscando minerales o piezas valiosas. Aunque son más débiles que otras criaturas, saben aprovechar su astucia y no dudarán en causar problemas si es necesario. Sus escamas son rojas.</p>
-
-  <h3>Astucia con Escamas</h3>
-  <p>Los kobolds evitan los enfrentamientos directos cuando pueden. Prefieren ocultarse y atacar desde las sombras, aprovechando su pequeño tamaño y su habilidad para moverse rápidamente. Expertos en el uso de trampas y defensas improvisadas. Sin embargo, a veces son torpes y su poca comunicación en momentos de estrés les juega malas pasadas.</p>
-  <p>Buscan la compañía de criaturas poderosas. Es común verlos formando alianzas con dragones menores o reptiles grandes, a quienes veneran casi como deidades.</p>
-
-  <h3>Vida Bajo Tierra</h3>
-  <p>Los kobolds viven en lugares subterráneos, construyendo redes de túneles entre las rocas. Prefieren zonas ricas en minerales y gemas. En su tiempo libre, entre otras cosas:</p>
-  <ul class=\"fancy\">
-    <li>Crean y colocan trampas (a veces olvidando dónde las pusieron).</li>
-    <li>Excavan túneles profundos para confundir a posibles intrusos.</li>
-    <li>Acumulan objetos brillantes, monedas y gemas como colección.</li>
-    <li>Juegan a las tinieblas y al pilla-pilla (con vendas, ya que su visión nocturna lo hace injusto).</li>
-  </ul>
-
-  <h3>Tácticas de Defensa</h3>
-  <p>Si un grupo de kobolds está bien organizado: excavadores que aseguran vías de escape, arqueros en posiciones elevadas, un líder o chamán que guía a la tribu, y lanzadores de piedras con alquimistas de venenos caseros. En su terreno y coordinados, pueden ser mortales para grupos desprevenidos.</p>
-
-  <div class=\"divider\">✦</div>
-
-  <h2>Estadísticas — Kobolds</h2>
-
-  <div class=\"statblock\">
-    <h3>Kobold</h3>
-    <div class=\"type\">Pequeño humanoide (reptil), caótico neutral</div>
-    <div class=\"row\"><strong>CA</strong>11 (armadura de cuero)</div>
-    <div class=\"row\"><strong>PG</strong>5 (2d6+2)</div>
-    <div class=\"row\"><strong>Velocidad</strong>30 pies</div>
-    <div class=\"stats-grid\">
-      <div class=\"stat\"><span class=\"stat-label\">FUE</span><span class=\"stat-value\">7 (−2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">DES</span><span class=\"stat-value\">15 (+2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CON</span><span class=\"stat-value\">9 (−1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">INT</span><span class=\"stat-value\">8 (−1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">SAB</span><span class=\"stat-value\">7 (−2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CAR</span><span class=\"stat-value\">10 (0)</span></div>
-    </div>
-    <div class=\"row\"><strong>Habilidades</strong>Sigilo +4, Percepción +2</div>
-    <div class=\"row\"><strong>Sentidos</strong>Visión en la oscuridad 60 pies, percepción pasiva 10</div>
-    <div class=\"row\"><strong>Idiomas</strong>Común, Dracónico</div>
-    <div class=\"row\"><strong>Desafío</strong>1/8 (25 PX)</div>
-    <div class=\"action\"><strong>Cobardía Organizada.</strong> Cuando se ven rodeados de aliados, ganan +1 en tiradas de ataque y daño por cada kobold aliado a 5 pies.</div>
-    <div class=\"action\"><strong>Adaptación a la Oscuridad.</strong> Ventaja en tiradas de Sigilo en áreas de penumbra u oscuridad total.</div>
-    <div class=\"action\"><strong>Escurridizos.</strong> En su territorio o en túneles, pueden moverse a través del espacio de cualquier criatura de tamaño Mediano o mayor.</div>
-    <div class=\"action\"><strong>Tácticas de Manada.</strong> Ventaja en tiradas de ataque contra una criatura si hay un aliado kobold a 5 pies de ella.</div>
-    <div class=\"action-title\">Acciones</div>
-    <div class=\"action\"><strong>Daga.</strong> Cuerpo a cuerpo: +4, alcance 5 pies. Golpe: 4 (1d4+2) daño perforante.</div>
-    <div class=\"action\"><strong>Honda.</strong> A distancia: +4, alcance 30/120 pies. Golpe: 4 (1d4+2) daño contundente.</div>
-  </div>
-
-  <div class=\"statblock\">
-    <h3>Kobold Luchador</h3>
-    <div class=\"type\">Pequeño humanoide (reptil), neutral maligno</div>
-    <div class=\"row\"><strong>CA</strong>13 (armadura de cuero)</div>
-    <div class=\"row\"><strong>PG</strong>20 (4d6+4)</div>
-    <div class=\"row\"><strong>Velocidad</strong>30 pies</div>
-    <div class=\"stats-grid\">
-      <div class=\"stat\"><span class=\"stat-label\">FUE</span><span class=\"stat-value\">12 (+1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">DES</span><span class=\"stat-value\">14 (+2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CON</span><span class=\"stat-value\">12 (+1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">INT</span><span class=\"stat-value\">8 (−1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">SAB</span><span class=\"stat-value\">10 (0)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CAR</span><span class=\"stat-value\">8 (−1)</span></div>
-    </div>
-    <div class=\"row\"><strong>Habilidades</strong>Atletismo +4, Sigilo +4</div>
-    <div class=\"row\"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
-    <div class=\"row\"><strong>Desafío</strong>1 (200 PX)</div>
-    <div class=\"action\"><strong>Valentía.</strong> No se ve afectado por la condición de asustado mientras tenga al menos un aliado kobold a 10 pies.</div>
-    <div class=\"action\"><strong>Entrenamiento Marcial.</strong> Ventaja en tiradas de ataque cuerpo a cuerpo contra criaturas más grandes que él.</div>
-    <div class=\"action-title\">Acciones</div>
-    <div class=\"action\"><strong>Multiataque.</strong> Realiza dos ataques cuerpo a cuerpo: uno con espada corta y otro con daga.</div>
-    <div class=\"action\"><strong>Espada corta.</strong> Cuerpo a cuerpo: +4, alcance 5 pies. Golpe: 6 (1d6+2) daño perforante.</div>
-    <div class=\"action\"><strong>Daga.</strong> Cuerpo a cuerpo o a distancia: +4. Golpe: 4 (1d4+2) daño perforante.</div>
-    <div class=\"action\"><strong>Ataque Rápido (1/Día).</strong> Como acción adicional, realiza un tercer ataque. Si impacta, el objetivo supera FUE CD 12 o es empujado 5 pies.</div>
-  </div>
-
-  <div class=\"statblock\">
-    <h3>Kobold Alquimista</h3>
-    <div class=\"type\">Pequeño humanoide (reptil), caótico neutral</div>
-    <div class=\"row\"><strong>CA</strong>11 (armadura de cuero)</div>
-    <div class=\"row\"><strong>PG</strong>29 (3d6+18)</div>
-    <div class=\"row\"><strong>Velocidad</strong>30 pies</div>
-    <div class=\"stats-grid\">
-      <div class=\"stat\"><span class=\"stat-label\">FUE</span><span class=\"stat-value\">8 (−1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">DES</span><span class=\"stat-value\">14 (+2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CON</span><span class=\"stat-value\">16 (+3)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">INT</span><span class=\"stat-value\">12 (+1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">SAB</span><span class=\"stat-value\">10 (0)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CAR</span><span class=\"stat-value\">11 (0)</span></div>
-    </div>
-    <div class=\"row\"><strong>Resistencias</strong>Veneno</div>
-    <div class=\"row\"><strong>Desafío</strong>2 (450 PX)</div>
-    <div class=\"action\"><strong>Alquimista Astuto.</strong> Ventaja en tiradas de ataque con pociones de alquimia cuando está a 20 pies o más de sus aliados.</div>
-    <div class=\"action\"><strong>Resistencia Alquímica.</strong> Ventaja en salvaciones contra veneno y efectos de veneno o ácido.</div>
-    <div class=\"action-title\">Acciones</div>
-    <div class=\"action\"><strong>Multiataque.</strong> Realiza dos ataques: Poción Explosiva y Poción Venenosa.</div>
-    <div class=\"action\"><strong>Poción Explosiva.</strong> A distancia: +5, alcance 20/60 pies. Explosión en radio 5 pies: 13 (3d6) daño de fuego. Salvación DES CD 13 para recibir solo la mitad.</div>
-    <div class=\"action\"><strong>Poción Venenosa.</strong> A distancia: +5, alcance 20/60 pies. Golpe: 10 (2d6+3) daño veneno + salvación CON CD 13 o envenenado hasta el fin de su siguiente turno.</div>
-    <div class=\"action\"><strong>Nube Tóxica (Recarga 5-6).</strong> Área de 10 pies de radio: 7 (2d6) daño por veneno + envenenado, salvación CON CD 13 para la mitad. El alquimista lleva máscara.</div>
-  </div>
-
-  <div class=\"statblock\">
-    <h3>Kobold Chamán</h3>
-    <div class=\"type\">Pequeño humanoide (reptil), neutral maligno</div>
-    <div class=\"row\"><strong>CA</strong>13 (armadura natural)</div>
-    <div class=\"row\"><strong>PG</strong>55 (10d6+20)</div>
-    <div class=\"row\"><strong>Velocidad</strong>30 pies</div>
-    <div class=\"stats-grid\">
-      <div class=\"stat\"><span class=\"stat-label\">FUE</span><span class=\"stat-value\">8 (−1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">DES</span><span class=\"stat-value\">14 (+2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CON</span><span class=\"stat-value\">14 (+2)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">INT</span><span class=\"stat-value\">12 (+1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">SAB</span><span class=\"stat-value\">16 (+3)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CAR</span><span class=\"stat-value\">10 (0)</span></div>
-    </div>
-    <div class=\"row\"><strong>Inmunidades a estados</strong>Envenenado</div>
-    <div class=\"row\"><strong>Sentidos</strong>Visión en la oscuridad 60 pies, percepción pasiva 15</div>
-    <div class=\"row\"><strong>Desafío</strong>3 (700 PX)</div>
-    <div class=\"action\"><strong>Aura de la Naturaleza.</strong> En un radio de 10 pies, criaturas aliadas ganan ventaja en salvaciones contra ataques mágicos.</div>
-    <div class=\"action\"><strong>Conjuros Innatos</strong> (SAB CD 13, +5 ataque): A voluntad: Saber Druídico, Salpicadura Ácida. 3/día: Enmarañar, Manos Ardientes. 1/día: Hacer Añicos, Inmovilizar Persona.</div>
-    <div class=\"action-title\">Acciones</div>
-    <div class=\"action\"><strong>Cetro Natural.</strong> Cuerpo a cuerpo: +4, alcance 5 pies. Golpe: 8 (1d8+3) daño contundente. Emite un brillo verdoso al impactar.</div>
-    <div class=\"action\"><strong>Ráfaga de Espinas (Recarga 5-6).</strong> Área de 15 pies de radio a 30 pies: salvación DES CD 13 o 14 (4d6) daño perforante, la mitad si tiene éxito.</div>
-  </div>
-
-  <div class=\"statblock\">
-    <h3>Heredero Dragón</h3>
-    <div class=\"type\">Siervo del dragón, mediano, neutral maligno</div>
-    <div class=\"row\"><strong>CA</strong>15 (armadura natural)</div>
-    <div class=\"row\"><strong>PG</strong>85 (6d8+18)</div>
-    <div class=\"row\"><strong>Velocidad</strong>30 pies, volar 40 pies</div>
-    <div class=\"stats-grid\">
-      <div class=\"stat\"><span class=\"stat-label\">FUE</span><span class=\"stat-value\">16 (+3)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">DES</span><span class=\"stat-value\">12 (+1)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CON</span><span class=\"stat-value\">16 (+3)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">INT</span><span class=\"stat-value\">10 (0)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">SAB</span><span class=\"stat-value\">11 (0)</span></div>
-      <div class=\"stat\"><span class=\"stat-label\">CAR</span><span class=\"stat-value\">14 (+2)</span></div>
-    </div>
-    <div class=\"row\"><strong>Inmunidades al daño</strong>Veneno, fuego</div>
-    <div class=\"row\"><strong>Inmunidad a estados</strong>Envenenado</div>
-    <div class=\"row\"><strong>Sentidos</strong>Visión en la oscuridad 60 pies</div>
-    <div class=\"row\"><strong>Idiomas</strong>Común, Dracónico</div>
-    <div class=\"row\"><strong>Desafío</strong>5 (1.800 PX)</div>
-    <div class=\"action\"><strong>Escamas Reforzadas.</strong> Inmune a daño por fuego y quemaduras.</div>
-    <div class=\"action\"><strong>Rugido Desolador.</strong> Al entrar en batalla, cualquier criatura enemiga supera SAB CD 13 o huye durante dos turnos.</div>
-    <div class=\"action\"><strong>Furia de Batalla.</strong> Los ataques cuerpo a cuerpo con garras y dientes son más mortíferos y precisos.</div>
-    <div class=\"action-title\">Acciones</div>
-    <div class=\"action\"><strong>Multiataque.</strong> Dos ataques: mordisco y garra, o dos con la espada.</div>
-    <div class=\"action\"><strong>Mordisco.</strong> Cuerpo a cuerpo: +7, alcance 5 pies. Golpe: 7 (1d8+3) perforante + 3 (1d6) fuego.</div>
-    <div class=\"action\"><strong>Garra.</strong> Cuerpo a cuerpo: +7, alcance 5 pies. Golpe: 8 (1d10+3) cortante.</div>
-    <div class=\"action\"><strong>Espada Negra.</strong> Cuerpo a cuerpo: +5, alcance 5 pies. Golpe: 12 (2d10+3) cortante.</div>
-    <div class=\"action\"><strong>Aliento Ígneo (Recarga 5-6).</strong> Cono de 15 pies: salvación DES CD 13 o 21 (4d6) daño de fuego, la mitad si tiene éxito.</div>
-    <div class=\"action\"><strong>Comando Dracónico (1/Día).</strong> Emite órdenes en Dracónico. Cada aliado draconiano que lo oiga puede mover hasta 15 pies y atacar cuerpo a cuerpo como reacción.</div>
-  </div>
-
-  <div class=\"aside\">
-    <div class=\"aside-title\">Kobolds en Thorn</div>
+    <div class="aside-title">Kobolds en Thorn</div>
     <p>Estos son solo los tipos más representativos. Quedan más variantes por documentar en futuros volúmenes del Pergamino.</p>
   </div>
 
@@ -317,6 +199,7 @@
   <div class="divider">✦</div>
   <p style="font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.3em;color:var(--blood);text-transform:uppercase;margin-bottom:1rem">Aventura I — Entras en una Taberna</p>
 
+  <div class="statblock-grid">
   <div class="statblock">
     <h3>Mercenario</h3>
     <div class="type">Mediano humanoide (cualquier raza), cualquier alineación no legal</div>
@@ -368,8 +251,11 @@
   </div>
 
   <div class="divider">✦</div>
+  </div>
+
   <p style="font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.3em;color:var(--blood);text-transform:uppercase;margin-bottom:1rem">Aventura II — Problemas Verdes</p>
 
+  <div class="statblock-grid">
   <div class="statblock">
     <h3>Campeón Orco</h3>
     <div class="type">Mediano humanoide (orco), caótico maligno</div>
@@ -424,6 +310,8 @@
   </div>
 
   <div class="divider">✦</div>
+  </div>
+
   <p style="font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.3em;color:var(--blood);text-transform:uppercase;margin-bottom:1rem">Aventura III — Las Ruinas de Aernor</p>
 
   <div class="statblock">

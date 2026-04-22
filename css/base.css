@@ -20,16 +20,16 @@
 html{scroll-behavior:smooth;font-size:16px;text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%}
 
 body{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Crimson Pro',serif;
   background:
     radial-gradient(ellipse at top left, rgba(139,107,42,.08), transparent 50%),
     radial-gradient(ellipse at bottom right, rgba(107,31,31,.08), transparent 50%),
     #2a1f15;
   color:var(--ink);
   min-height:100vh;
-  font-size:18px;
-  line-height:1.75;
-  font-weight:600;
+  font-size:19px;
+  line-height:1.8;
+  font-weight:500;
 }
 
 /* ============ LAYOUT ============ */
@@ -142,8 +142,8 @@ h1.page-title{
 .page-kicker{
   font-family:'Cinzel',serif;
   text-align:center;
-  font-size:.8rem;
-  letter-spacing:.5em;
+  font-size:.9rem;
+  letter-spacing:.4em;
   text-transform:uppercase;
   color:var(--gold);
   margin-bottom:.5rem;
@@ -188,7 +188,7 @@ h4{
   letter-spacing:.15em;
   text-transform:uppercase;
 }
-p{margin-bottom:1rem;color:var(--ink);font-weight:500}
+p{margin-bottom:1rem;color:var(--ink);font-weight:400}
 p.lead{
   font-size:1.35rem;
   font-style:italic;
@@ -225,7 +225,7 @@ p.lead{
 }
 
 @media (max-width:900px){
-  body{font-size:16px}
+  body{font-size:17px}
   .page{padding:2rem 1.5rem}
   h1.page-title{font-size:3.5rem}
   .menu-toggle{display:block}
